@@ -75,8 +75,8 @@ public class SensorDataDbHelper extends SQLiteOpenHelper {
         String[] projection = {
                 SensorDataContract.SensorDataCol._ID,
                 SensorDataContract.SensorDataCol.COLUMN_NAME_DATE,
-                SensorDataContract.SensorDataCol.COLUMN_NAME_HUMIDITY,
-                SensorDataContract.SensorDataCol.COLUMN_NAME_TEMPERATURE
+                SensorDataContract.SensorDataCol.COLUMN_NAME_TEMPERATURE,
+                SensorDataContract.SensorDataCol.COLUMN_NAME_HUMIDITY
         };
 
         String sortOrder =

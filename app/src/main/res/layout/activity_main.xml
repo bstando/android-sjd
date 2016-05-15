@@ -27,7 +27,7 @@
         android:layout_alignBottom="@+id/genData"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="retriveData"/>
+        android:onClick="retrieveData"/>
 
     <ListView
         android:layout_width="wrap_content"
